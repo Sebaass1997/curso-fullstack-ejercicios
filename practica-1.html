@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script type="text/javascript" src="./test-01.js"></script>
+    <title>Ejercicios Javascript</title>
+</head>
+
+<body>
+    <nav></nav>
+    <main class="container-fluid">
+        <section>
+            <h1>Ejercicio 1</h1>
+            <p id="texto1">Hola World!</p>
+            <button id="btnCambio" onclick="cambiarTexto()">Cambiar texto</button>
+        </section>
+        <section>
+            <h1>Ejercicio 2</h1>
+            <p id="texto2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <button id="btnCambio2" onclick="cambiarEstilo()">Cambiar estilo</button>
+        </section>
+        <section>
+            <h1>Ejercicio 3</h1>
+            <div class="col">
+                <p id="texto3">Al presionar el boton va a desaparecer</p>
+                <button id="btnHidden" onclick="esconder()">Esconder elemento</button>
+            </div>
+            <div class="col">
+                <p id="texto4" hidden>Al presionar el boton va a aparecer</p>
+                <button id="btnShow" onclick="mostrar()">Esconder elemento</button>
+            </div>
+
+        </section>
+        <section>
+            <h1>Ejercicio 4</h1>
+            <p id="texto5"></p>
+            <button id="btnMostrarURL" onclick="mostrarUrl()">Mostrar URl</button>
+        </section>
+        <section>
+            <h1>Ejercicio 5</h1>
+            <form id="formulario1" name="form1">
+                Formulario 1
+            </form>
+            <form id="formulario2" name="form2">
+                Formulario 2
+            </form>
+            <form id="formulario3" name="form3">
+                Formulario 3
+            </form>
+            <p id="textoForm"></p>
+            <button id="btnForm" onclick="mostrarForm()">Mostrar nombre segundo formulario</button>
+        </section>
+        <section>
+            <h1>Ejercicio 6</h1>
+            <label onmouseover="cambioColor1()">Cambio 1</label>
+            <label onmouseout="cambioColor2()">Cambio 2</label>
+        </section>
+        <section>
+            <h1>Ejercicio 7</h1>
+            <p id="texto7">Hola World!</p>
+            <button id="btnMayus" onclick="pasarMayus()">Poner mayuscula</button>
+        </section>
+        <section>
+            <h1>Ejercicio 8</h1>
+            <a>Anchor 1</a>
+            <a>Anchor 2</a>
+            <a>Anchor 3</a>
+            <a>Anchor 4</a>
+            <a>Anchor 5</a>
+            <a>Anchor 6</a>
+            <p id="texto8"></p>
+            <button id="btnConteo" onclick="contarAnchor()">Conteo de anchors</button>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
